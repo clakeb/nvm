@@ -7,7 +7,7 @@
 node['nvm']['install_nodes'].each do |node_ver, source|
   nvm_install node_ver do
     from_source source
-    alias_as_default false
+    # alias_as_default false
     action :create
   end
 end
