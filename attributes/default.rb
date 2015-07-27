@@ -31,5 +31,5 @@ default['nvm']['install_deps_to_build_from_source'] = true
 default['nvm']['user']                              = 'root'
 default['nvm']['group']                             = 'root'
 
-# Add node versions and binary to be installed in the hash.
+# Add node versions and binary (true/false) to be installed in the hash.
 default['nvm']['install_nodes'] = {}
